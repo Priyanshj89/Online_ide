@@ -1,0 +1,39 @@
+.editor {
+	min-height: 300px;
+	max-height: 450px;
+	min-width: 750px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.build-button {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	justify-content: start;
+	cursor: pointer;
+}
+
+.clearButton {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	justify-content: start;
+	cursor: pointer;
+}
+
+.build-button:focus {
+	outline: none;
+}
+
+.clearButton:focus {
+	outline: none;
+}
