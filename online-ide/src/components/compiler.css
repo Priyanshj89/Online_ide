@@ -6,6 +6,39 @@
 	margin-top: 10px;
 }
 
+.practice-code {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	background-color: wheat;
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+
+.practice-view-button {
+	padding: 10px;
+	border-radius: 10px;
+	min-width: fit-content;
+	min-height: 30px;
+	cursor: pointer;
+	background-color: darkgreen;
+	color: white;
+	font-weight: 600;
+	border: none;
+}
+
+.practice-view-button:focus {
+	outline: none;
+}
+
+.practice-text {
+	font-size: 25px;
+	font-weight: 600;
+}
+
 .build-button {
 	background-color: blue;
 	color: white;
@@ -28,6 +61,22 @@
 	font-size: 20px;
 	justify-content: start;
 	cursor: pointer;
+}
+
+.clearEditorButton {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	justify-content: start;
+	cursor: pointer;
+}
+
+.clearEditorButton:focus {
+	outline: none;
 }
 
 .build-button:focus {
